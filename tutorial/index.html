@@ -10,18 +10,18 @@
       
       
       
-      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.2.3">
     
     
       
-        <title>My Docs</title>
+        <title>Welcome to nigelx111222 - My Docs</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.6e35a1a6.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6e35a1a6.min.css">
       
-        <link rel="stylesheet" href="assets/stylesheets/palette.a46bcfb3.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a46bcfb3.min.css">
       
       
         
@@ -57,7 +57,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#fuzzer" class="md-skip">
+        <a href="#welcome-to-nigelx111222" class="md-skip">
           跳转至
         </a>
       
@@ -68,7 +68,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="." title="My Docs" class="md-header-nav__button md-logo" aria-label="My Docs">
+    <a href=".." title="My Docs" class="md-header-nav__button md-logo" aria-label="My Docs">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -85,7 +85,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Introduction
+              Welcome to nigelx111222
             
           </span>
         </div>
@@ -142,7 +142,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs">
+    <a href=".." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -157,20 +157,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="." title="Introduction" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href=".." title="Introduction" class="md-nav__link">
       Introduction
     </a>
-    
   </li>
 
     
@@ -205,7 +196,7 @@
 
 
   <li class="md-nav__item">
-    <a href="about/" title="Windows" class="md-nav__link">
+    <a href="../about/" title="Windows" class="md-nav__link">
       Windows
     </a>
   </li>
@@ -247,37 +238,8 @@
                   
                 
                 
-                <h1 id="fuzzer">Fuzzer开源项目记录<a class="headerlink" href="#fuzzer" title="Permanent link">&para;</a></h1>
-<p>1.<strong>AFL</strong> ------- 支持源码插桩代码覆盖引导等Fuzzer。</p>
-<p><a href="http://lcamtuf.coredump.cx/afl/">http://lcamtuf.coredump.cx/afl/</a></p>
-<p>2.<strong>WinAFL</strong>------- windows版本的AFL，使用DynamoRIO去插桩闭源程序以获取代码覆盖率信息。</p>
-<p><a href="https://github.com/googleprojectzero/winafl">https://github.com/googleprojectzero/winafl</a></p>
-<p>3.<strong>AFLFast</strong>--------加速版本的AFL，Fuzzing速度比原版本快</p>
-<p><a href="https://github.com/mboehme/aflfast">https://github.com/mboehme/aflfast</a></p>
-<p>4.<strong>Vuzzer</strong>——支持闭源程序的覆盖引导Fuzzer，使用LibDFT的pin工具实现数据流追踪</p>
-<p><a href="https://github.com/vusec/vuzzer">https://github.com/vusec/vuzzer</a></p>
-<p>5.<strong>PTfuzzer</strong>——Linux平台下的采用 Interl PT硬件支持的覆盖引导Fuzzer，所以它支持闭源程序。</p>
-<p><a href="https://github.com/hunter-ht-2018/ptfuzzer">https://github.com/hunter-ht-2018/ptfuzzer</a></p>
-<p>6.<strong>afl-unicorn</strong>——采用Unicorn模拟指令的AFL，支持Linux闭源程序</p>
-<p><a href="https://github.com/tigerpuma/Afl_unicorn">https://github.com/tigerpuma/Afl_unicorn</a></p>
-<p>7.<strong>pe-afl</strong>——通过静态插桩实现针对Windows闭源程序的覆盖引导的AFL Fuzzer，支持用户层应用和内核驱动</p>
-<p><a href="https://github.com/wmliang/pe-afl">https://github.com/wmliang/pe-afl</a></p>
-<p>8.<strong>kAFL</strong>——支持QEMU虚拟机下的系统内核Fuzzing的AFL，适用于Linux、macOS与Windows</p>
-<p><a href="https://github.com/RUB-SysSec/kAFL/">https://github.com/RUB-SysSec/kAFL/</a></p>
-<p>9.<strong>LibFuzzer</strong>——进程内覆盖率引导的开源的fuzz引擎库，属于llvm的一部分，在各大主流开源库中，以及Google内部最经常用的安全测试工具</p>
-<p><a href="https://llvm.org/docs/LibFuzzer.html">https://llvm.org/docs/LibFuzzer.html</a></p>
-<p>10.<strong>OSS-Fuzz</strong>——基于LibFuzzer的开源软件Fuzzer集合，实现docker下自动下载、编译安装及运行</p>
-<p><a href="https://github.com/google/oss-fuzz">https://github.com/google/oss-fuzz</a></p>
-<p>11.<strong>honggfuzz</strong>——Google开发的基于软硬件的覆盖驱动型Fuzzer，单纯暴力Fuzz的效果也挺好的，支持多平台，包括Linux\macOS\Windows\Android</p>
-<p><a href="https://github.com/google/honggfuzz">https://github.com/google/honggfuzz</a></p>
-<p>12.<strong>OSXFuzzer</strong>——基于Kernel Fuzzer的macOS内核Fuzzer</p>
-<p><a href="https://github.com/mwrlabs/OSXFuzz.git">https://github.com/mwrlabs/OSXFuzz.git</a></p>
-<p>13.<strong>syzkaller</strong>——基于覆盖率引导的Linux内核Fuzzer，需要基于其模板语法实现API调用模板，提供给syzkaller进行数据变异，也曾被移植到其它平台</p>
-<p><a href="https://github.com/google/syzkaller">https://github.com/google/syzkaller</a></p>
-<p>14.<strong>Razzer</strong>——内核竞争条件漏洞Fuzzer</p>
-<p><a href="https://github.com/compsec-snu/razzer">https://github.com/compsec-snu/razzer</a></p>
-<p>15.<strong>funfuzz</strong>——Mozilla开源的JS fuzzer工具集合，主要用于Fuzz SpiderMonkey</p>
-<p><a href="https://github.com/MozillaSecurity/funfuzz">https://github.com/MozillaSecurity/funfuzz</a></p>
+                <h1 id="welcome-to-nigelx111222">Welcome to nigelx111222<a class="headerlink" href="#welcome-to-nigelx111222" title="Permanent link">&para;</a></h1>
+<p>MkDocs 博客搭建学习</p>
                 
               
               
@@ -292,27 +254,6 @@
       
         
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
-        
-        
-          <a href="about/" title="Windows" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  下一页
-                </span>
-                Windows
-              </div>
-            </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -330,15 +271,15 @@
       
     </div>
     
-      <script src="assets/javascripts/vendor.d710d30a.min.js"></script>
-      <script src="assets/javascripts/bundle.a45f732b.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\uff0c\\u3002]+", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c"}</script>
+      <script src="../assets/javascripts/vendor.d710d30a.min.js"></script>
+      <script src="../assets/javascripts/bundle.a45f732b.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\uff0c\\u3002]+", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c"}</script>
       
       <script>
         app = initialize({
-          base: ".",
+          base: "..",
           features: [],
           search: Object.assign({
-            worker: "assets/javascripts/worker/search.c03f0417.min.js"
+            worker: "../assets/javascripts/worker/search.c03f0417.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
